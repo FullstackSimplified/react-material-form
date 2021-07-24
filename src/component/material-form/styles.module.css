@@ -1,0 +1,20 @@
+.MaterialForm {
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgb(144, 186, 238);
+}
+
+.MaterialForm > form {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  padding: 32px;
+  min-width: 350px;
+  border-radius: 8px;
+  margin: 32px;
+}
