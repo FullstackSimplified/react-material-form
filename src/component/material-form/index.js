@@ -1,7 +1,6 @@
 import { TextField, Button, Box, Typography } from "@material-ui/core";
 import { Field, Form, Formik } from "formik";
 import { object, string } from "yup";
-import classes from "./styles.module.css";
 
 const initalValues = {
   email: "",
@@ -11,7 +10,7 @@ const initalValues = {
 
 const MaterialForm = () => {
   return (
-    <div className={classes.MaterialForm}>
+    <div className="MaterialForm">
       <Typography variant="h4">
         React Material From Using Formik and Yup
       </Typography>
