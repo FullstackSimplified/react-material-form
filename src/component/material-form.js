@@ -31,37 +31,37 @@ const MaterialForm = () => {
         {({ errors, isValid, touched, dirty }) => (
           <Form>
             <Field
-              name={"email"}
-              type={"email"}
+              name="email"
+              type="email"
               as={TextField}
-              variant={"outlined"}
-              color={"primary"}
-              label={"Email"}
-              fullWidth
+              variant="outlined"
+              color="primary"
+              label="Email"
+              fullWidt
               error={Boolean(errors.email) && Boolean(touched.email)}
               helperText={Boolean(touched.email) && errors.email}
             />
             <Box height={14} />
 
             <Field
-              name={"name"}
-              type={"name"}
+              name="name"
+              type="name"
               as={TextField}
-              variant={"outlined"}
-              color={"primary"}
-              label={"Name"}
+              variant="outlined"
+              color="primary"
+              label="Name"
               fullWidth
               error={Boolean(errors.name) && Boolean(touched.name)}
               helperText={Boolean(touched.name) && errors.name}
             />
             <Box height={14} />
             <Field
-              name={"password"}
-              type={"password"}
+              name="password"
+              type="password"
               as={TextField}
-              variant={"outlined"}
-              color={"primary"}
-              label={"Password"}
+              variant="outlined"
+              color="primary"
+              label="Password"
               fullWidth
               error={Boolean(errors.password) && Boolean(touched.password)}
               helperText={Boolean(touched.password) && errors.password}
@@ -69,7 +69,7 @@ const MaterialForm = () => {
             <Box height={14} />
 
             <Button
-              type={"submit"}
+              type="submit"
               variant="contained"
               color="primary"
               size="large"
